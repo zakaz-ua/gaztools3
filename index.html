@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	
+	<!--Fonts-->
+	<link rel="stylesheet" href="css/font.css">
+
+	<!-- Bootstrap 4 -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- Slick -->
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="slick/slick-theme.css">
+
+	<!--Components-->
+	<link rel="stylesheet" href="css/component.css">
+	
+	<!-- Style -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Media -->
+	<link rel="stylesheet" href="css/media.css">
+
+	<title>Газзапчасти</title>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row flex_dir">
+				<div class="col-lg-6 col-md-2">
+					<nav class="header__nav">
+						<div class="header__burger"></div>
+						<ul class="header__menu">
+							<li class="header__line"><a href="#" class="header__link">Главная</a></li>
+							<li class="header__line"><a href="#" class="header__link">Каталог запчастей</a></li>
+							<li class="header__line"><a href="#" class="header__link">Прайс-лист</a></li>
+							<li class="header__line"><a href="#" class="header__link">Сотрудничество</a></li>
+							<li class="header__line"><a href="#" class="header__link">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-lg-6 col-md-10">
+					<div class="header__contacts">
+						<p class="header__email">autoparts-116@mail.ru</p>
+						<p class="header__address">г.Казань, Мамадышский тракт 35, корпус 1 (Вход слева)</p>
+					</div>					
+				</div>
+			</div>	
+
+		</div>
+	</header>
+	<section class="header__content">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12">
+					<div class="logo">
+						<div class="logo__main">
+							<img src="images/logo.png" alt="Логотип" class="logo__img">
+						</div>
+						<div class="logo__title">
+							<h1 class="logo__text">
+								Запчасти Газель, ГАЗ,<br>
+								ПАЗ, УАЗ, ЗИЛ, Камаз,<br>
+								Cummins в Казани
+							</h1>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="shopping">
+						<div class="shopping__phone">
+							<div class="shopping__phone__img">
+								<img src="images/phone.png" alt="Телефон" class="shopping__phone__icon">
+							</div>
+							<div class="shopping__text">
+								<p class="shopping__tel">8 (927) 248 56 89<br>8 (843) 267 42 52</p>
+								<a href="#" class="shopping__call " data-toggle="modal" data-target="#exampleModal">Заказать звонок</a>
+							</div>
+						</div>
+						<div class="shopping__cart">
+							<div class="shopping__cart__img">
+								<img src="images/shopping_cart.png" alt="Корзина" class="shopping__cart__icon">
+								<div class="shopping__cart__count">3</div>
+							</div>
+							<div class="shopping__cart__text">
+								<p class="shopping__cart_title">В корзине</p>
+								<p class="shopping__count">
+									<span class="shopping__quantity">3</span>
+									<span class="shopping__goods"> товара, </span>
+									<span class="shopping__number">1 950</span>
+									<span class="shopping__currency"> руб.</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="search">
+<!-- 		<img src="images/burger_search.png" alt="" class="s_burger"> -->
+		<div class="btn-group dropright s_burger">
+			<button type="button" class="btn btn-secondary dropdown-toggle s_burger_btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			</button>
+			<div class="dropdown-menu burger_menu">
+			<!-- Dropdown menu links -->
+				<ul class="side__wrapper side_wrapper_sm">
+					<li class="side__line"><a href="#" class="side__link">Газель Cummins 2.8, Валдай Cummins 3.8</a></li>
+					<li class="side__line"><a href="#" class="side__link">Автокамеры</a></li>
+					<li class="side__line"><a href="#" class="side__link">Аккумуляторы</a></li>
+					<li class="side__line"><a href="#" class="side__link">ВАЗ</a></li>
+					<li class="side__line"><a href="#" class="side__link">Валдай (ГАЗ 3310)</a></li>
+					<li class="side__line"><a href="#" class="side__link">ГАЗ 3307</a></li>
+					<li class="side__line"><a href="#" class="side__link">ГАЗ 3309</a></li>
+					<li class="side__line"><a href="#" class="side__link">Газель ГАЗ 3302, БИЗНЕС, NEXT</a></li>
+					<li class="side__line"><a href="#" class="side__link">Газон NEXT</a></li>
+					<li class="side__line"><a href="#" class="side__link">ЗИЛ</a></li>
+					<li class="side__line"><a href="#" class="side__link">ЗИЛ Бычок</a></li>
+					<li class="side__line"><a href="#" class="side__link">Инструменты</a></li>
+					<li class="side__line"><a href="#" class="side__link">КАМАЗ</a></li>
+					<li class="side__line"><a href="#" class="side__link">Лампочки</a></li>
+					<li class="side__line"><a href="#" class="side__link">ПАЗ</a></li>
+					<li class="side__line s_line_act_sm"><a href="#" class="side__link side__link__act">Расходники</a>
+						<ul class="side_submenu side_submenu_sm">
+							<li class="side__subline"><a href="#" class="side__sublink">Фильтры</a></li>
+							<li class="side__subline"><a href="#" class="side__sublink">Масла, смазочные материалы, тосол</a></li>
+							<li class="side__subline"><a href="#" class="side__sublink">Свечи</a></li>
+							<li class="side__subline"><a href="#" class="side__sublink">Метизы, фитинги, трубки</a></li>
+						</ul>
+					</li>
+					<li class="side__line"><a href="#" class="side__link">УАЗ</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="search__content">
+						<ul class="search__submenu">
+							<li class="search__subline"><a href="#" class="search__link">Газель Cummins 2.8, Валдай Cummins 3.8</a></li>
+							<li class="search__subline"><a href="#" class="search__link">Автокамеры</a></li>
+							<li class="search__subline"><a href="#" class="search__link">Аккумуляторы</a></li>
+							<li class="search__subline"><a href="#" class="search__link">ВАЗ</a></li>
+							<li class="search__subline"><a href="#" class="search__link">Валдай (ГАЗ 3310)</a></li>
+							<li class="search__subline"><a href="#" class="search__link">ГАЗ 3307</a></li>
+							<li class="search__subline"><a href="#" class="search__link">ГАЗ 3309</a></li>
+							<li class="search__subline"><a href="#" class="search__link">Газель ГАЗ 3302, БИЗНЕС, NEXT</a></li>
+							<li class="search__subline"><a href="#" class="search__link">Газон NEXT</a></li>
+							<li class="search__subline"><a href="#" class="search__link">ЗИЛ</a></li>
+							<li class="search__subline"><a href="#" class="search__link">ЗИЛ Бычок</a></li>
+							<li class="search__subline"><a href="#" class="search__link">Инструменты</a></li>
+							<li class="search__subline"><a href="#" class="search__link">КАМАЗ</a></li>
+							<li class="search__subline"><a href="#" class="search__link">Лампочки</a></li>
+							<li class="search__subline"><a href="#" class="search__link">ПАЗ</a></li>
+							<li class="search__subline"><a href="#" class="search__link">УАЗ</a></li>
+							<li class="search__subline"><a href="#" class="search__link">Фильтры</a></li>
+							<li class="search__subline"><a href="#" class="search__link">Масла, смазочные материалы тосол</a></li>
+							<li class="search__subline"><a href="#" class="search__link">Свечи</a></li>
+							<li class="search__subline"><a href="#" class="search__link">Метизы, фитинги, трубки</a></li>
+						</ul>
+						<div class="search__line"><span class="search_catalog">Каталог</span></div>
+						<form action="#" method="get" class="search__form">
+							<div class="search__wrapper">
+								<input type="text" name="text" placeholder="Поиск запчастей" class="search__field">
+							</div>
+							<button type="submit" class="search__submit">Искать</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-lg-4 col-sm-12">
+					<aside class="side">
+						<ul class="side__wrapper">
+							<li class="side__line"><a href="#" class="side__link">Газель Cummins 2.8, Валдай Cummins 3.8</a></li>
+							<li class="side__line"><a href="#" class="side__link">Автокамеры</a></li>
+							<li class="side__line"><a href="#" class="side__link">Аккумуляторы</a></li>
+							<li class="side__line"><a href="#" class="side__link">ВАЗ</a></li>
+							<li class="side__line"><a href="#" class="side__link">Валдай (ГАЗ 3310)</a></li>
+							<li class="side__line"><a href="#" class="side__link">ГАЗ 3307</a></li>
+							<li class="side__line"><a href="#" class="side__link">ГАЗ 3309</a></li>
+							<li class="side__line"><a href="#" class="side__link">Газель ГАЗ 3302, БИЗНЕС, NEXT</a></li>
+							<li class="side__line"><a href="#" class="side__link">Газон NEXT</a></li>
+							<li class="side__line"><a href="#" class="side__link">ЗИЛ</a></li>
+							<li class="side__line"><a href="#" class="side__link">ЗИЛ Бычок</a></li>
+							<li class="side__line"><a href="#" class="side__link">Инструменты</a></li>
+							<li class="side__line"><a href="#" class="side__link">КАМАЗ</a></li>
+							<li class="side__line"><a href="#" class="side__link">Лампочки</a></li>
+							<li class="side__line"><a href="#" class="side__link">ПАЗ</a></li>
+							<li class="side__line s_line_act"><a href="#" class="side__link side__link__act">Расходники</a>
+								<ul class="side_submenu">
+									<li class="side__subline"><a href="#" class="side__sublink">Фильтры</a></li>
+									<li class="side__subline"><a href="#" class="side__sublink">Масла, смазочные материалы, тосол</a></li>
+									<li class="side__subline"><a href="#" class="side__sublink">Свечи</a></li>
+									<li class="side__subline"><a href="#" class="side__sublink">Метизы, фитинги, трубки</a></li>
+								</ul>
+							</li>
+							<li class="side__line"><a href="#" class="side__link">УАЗ</a></li>
+						</ul>
+					</aside>
+				</div>
+				<div class="col-xl-9 col-lg-8 col-sm-12">
+					<div class="cataloge">
+						<div class="cataloge__path">
+							<a href="#" class="c__path__link">Главная</a>
+							<a href="#" class="c__path__link">Каталог</a>
+							<a href="#" class="c__path__link">Шарнир равных угловых скоростей УАЗ 3162 ПАТРИОТ</a>
+						</div>
+						<div class="cataloge__main">
+							<hr class="cataloge__line">
+							<h3 class="cataloge__desc p__cat__desc">Шарнир равных угловых скоростей УАЗ 3162 ПАТРИОТ </h3>
+						</div>
+					</div>
+					<div class="product">
+						<div class="product__wrapper">
+							<div class="product__image">
+								<!--Слайдер 1-->
+								<div class="product__sl__big">
+									<div class="product__slider"><img src="images/product__sl__big_1.jpg" alt="Слайд 1"></div>
+									<div class="product__slider"><img src="images/product__sl__big_2.jpg" alt="Слайд 2"></div>
+									<div class="product__slider"><img src="images/product__sl__big_3.jpg" alt="Слайд 3"></div>
+								</div>
+								<!--Слайдер 2-->
+								<div class="product__sl__sm">
+									<div class="product__slider slr"><img src="images/product__sl__sm_1.jpg" alt="Слайд 1"></div>
+									<div class="product__slider slr"><img src="images/product__sl__sm_2.jpg" alt="Слайд 2"></div>
+									<div class="product__slider"><img src="images/product__sl__sm_3.jpg" alt="Слайд 3"></div>
+								</div>
+							</div>
+							<div class="product__tech">
+								<div class="product__index">
+									<p class="p__ind__line p__ind__code">
+										<span class="p__ind__title">Код:</span>
+										<span class="p__ind__text p__index__code">XXXXXXX</span>	
+									</p> 
+									<p class="p__ind__line p__ind__cat">
+										<span class="c__ind__title">Категория:</span>
+										<span class="c__ind__text p__index__cat">УАЗ</span>	
+									</p> 
+									<p class="p__ind__line p__ind__art">
+										<span class="p__ind__title">Артикул:</span>
+										<span class="p__ind__text p__index__art">УТ000005058</span>	
+									</p>
+									<p class="p__ind__line p__ind__sum">
+										<span class="p__ind__title">В наличии: </span>
+										<span class="p__ind__text p__index__sum">5</span>	
+										<span class="p__ind__desc"> штук</span>	
+									</p>																	
+								</div>
+								<h3 class="product__title">Шарнир равных угловых скоростей УАЗ 3162 ПАТРИОТ прав 3162-2304060/TKU-2304060-65 спайсер 160см
+								</h3>
+								<hr class="product__line">
+								<div class="product__price">
+									<p class="p__price">
+										<span class="p__price__money">3,200</span>
+										<span class="p__price__cur"> Р</span>
+									</p>
+								</div>
+								<div class="product__buy">
+									<div class="product__count">
+										<div class="product__plus"></div>
+										<div class="product__number">1</div>
+										<div class="product__minus"></div>
+									</div>
+									<div class="product__add__btns">
+										<a href="#" class="product__btn__cart">В корзину</a>
+										<a href="#" class="product__btn__buy">Купить в 1 клик</a>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div class="product__desc">
+							<h3 class="product__desc__title">Описание</h3>
+							<div class="product___desc__text">Обеспечивает передачу крутящего момента при углах поворота до 70 градусов относительно оси. ШРУСы изредка называют «гомокинетическими шарнирами». Используется в системах привода управляемых колёс  легковых автомобилей с независимой подвеской и, реже, задних колёс и в приводах передних колес внедорожников.
+							</div>
+						</div>
+					</div>
+					<div class="main__request__wrapper">
+						<div class="request__phone">
+							<h3 class="request__ph__title">Не нашли запчасть?</h3>
+							<p class="request__sd__desc">Свяжитесь с нами по телефонам:</p>
+							<div class="r__phones">
+								<p class="r__phone">
+									<span class="r__ph r__ph__1">8 (927) 248 56 89</span><br>
+									<span class="r__ph r__ph__2">8 (843) 267 42 52</span>
+								</p>
+								<img src="images/request_parts.png" alt="Картинка запчастей" class="r__img">
+							</div>
+						</div>
+						<div class="request__send">
+							<div class="parts__title">
+							<h3 class="parts__main">Оставьте заявку</h3>
+							<p class="parts__sub">Свяжемся с вами в ближайшее время</p>
+							</div>
+							<form action="#" method="post" class="parts__form">
+								<div class="parts__message">
+									<input type="text" name="text" placeholder="Имя" class="parts__name">
+									<textarea name="message" placeholder="Сообщение" class="parts__mess"></textarea>
+								</div>
+								<div class="parts__submit">
+									<input type="tel" placeholder="Номер телефона" class="parts__tel">
+									<div class="parts__politics">
+										<label>
+											<input type="checkbox" name="politics" hidden checked class="parts__mark">
+											<span class="parts__check__box"></span>
+										</label>
+										<a href="#" class="parts__text">Принимаю политику<br>персональных данных</a>
+									</div>
+									<button type="submit" class="parts__sbm">Отправить</button>
+								</div>
+							</form>	
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</section>
+	</section>	
+	<section class="map">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="map__modal">
+					<ul class="map__list">
+						<li class="map__line map__address">г.Казань, Мамадышский тракт, 35, корпус 1</li>
+						<li class="map__line map__email">autoparts-116@mail.ru</li>
+						<li class="map__line map__phone"><span class="map__tel">8 927 248-56-89,</span> <span class="map__tel">8 (843) 267-42-52</span></li>
+					</ul>
+				</div>
+				<div id="map" style="width: 100%; height: 444px"></div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="footer__content">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-7 col-lg-12">
+						<div class="footer__wrapper">
+							<div class="footer__logo">
+								<img src="images/footer_logo.png" alt="Логотип" class="footer__logo__img">
+								<ul class="map__list">
+									<li class="map__line map__address">г.Казань, Мамадышский тракт, 35, корпус 1</li>
+									<li class="map__line map__email">autoparts-116@mail.ru</li>
+									<li class="map__line map__phone"><span class="map__tel">8 927 248-56-89,</span> <span class="map__tel">8 (843) 267-42-52</span></li>
+								</ul>
+							</div>
+							<div class="footer__menu">
+								<ul class="footer_list">
+									<li class="footer__line"><a href="#" class="footer__link">Главная</a></li>
+									<li class="footer__line"><a href="#" class="footer__link">Каталог запчастей</a></li>
+									<li class="footer__line"><a href="#" class="footer__link">Прайс-лист</a></li>
+									<li class="footer__line"><a href="#" class="footer__link">Сотрудничество</a></li>
+									<li class="footer__line"><a href="#" class="footer__link">Контакты</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-12">
+						<div class="footer__form">
+							<div class="parts__title">
+								<h3 class="parts__main">Обратная связь</h3>
+							</div>
+							<form action="#" method="post" class="parts__form">
+								<div class="parts__message">
+									<input type="text" name="text" placeholder="Имя" class="parts__name">
+									<textarea name="message" placeholder="Сообщение" class="parts__mess"></textarea>
+								</div>
+								<div class="parts__submit">
+									<input type="tel" placeholder="Номер телефона" class="parts__tel">
+									<div class="parts__politics">
+										<label>
+											<input type="checkbox" name="politics" hidden checked class="parts__mark">
+											<span class="parts__check__box"></span>
+										</label>
+										<a href="#" class="parts__text">Принимаю политику<br>персональных данных</a>
+									</div>
+									<button type="submit" class="parts__sbm">Отправить</button>
+								</div>
+							</form>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__copywright__content">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="footer__copywrite">
+							<div class="footer__copywright__text">
+								<p class="f__copywrite">© ООО “ГАЗЗАПЧАСТИ”, 2018. Все права защищены.</p>
+								<a href="#" class="f__politics">Политика конфиденциальности</a>
+							</div>
+							<div class="f__develop">
+								<p class="f__dev__text">Разработано в</p>
+								<a href="#"><img src="images/footer_develop_logo.png" alt="Разработка сайта" class="f__dev__img"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<section class="modal__window">
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-body">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		        </button>
+    			<form action="#" method="post" class="parts__form">
+					<input type="text" name="text" placeholder="Имя" class="parts__name">
+					<input type="tel" placeholder="Номер телефона" class="parts__tel">
+					<div class="parts__politics">
+						<label>
+							<input type="checkbox" name="politics" hidden checked class="parts__mark">
+							<span class="parts__check__box"></span>
+						</label>
+						<a href="#" class="parts__text">Принимаю политику<br>персональных данных</a>
+					</div>
+					<button type="submit" class="parts__sbm">Заказать звонок</button>
+				</form>	
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</section>
+
+		<div class="btn-group dropright">
+			<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			</button>
+		<div class="dropdown-menu">
+		<!-- Dropdown menu links -->
+		<a href="#">1</a>
+		<a href="#">2</a>
+		<a href="#">3</a>
+		<a href="#">4</a>
+		<a href="#">5</a>
+		</div>
+		</div>
+
+
+<!-- JQuery -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<!-- <script src="js/jquery-1.12.4.min.js"></script> -->
+
+<!--Bootstrap JS-->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+<!-- Slick JS -->
+<script src="slick/slick.js"></script>	
+<script src="js/js.js"></script>
+
+<script>
+$('document').ready(function(){
+
+	$('.header__burger').on('click', function(){
+		$('.header__menu').toggleClass('header__menu__active');
+	});
+
+	$('.search__line').on('click', function(){
+		$('.search__submenu').toggleClass('search__menu__active');
+	});
+
+	$('.s_line_act').on('click', function(){
+		$('.side_submenu').toggleClass('main__active');
+	});
+
+	$('.c__column').on('click', function(){
+		$('.cataloge__items').addClass('fl_column');
+		$('.cataloge__item').addClass('cataloge__item_add');
+		$('.cataloge__image').addClass('cataloge__image_add');
+		$('.cataloge__price__wrapper').addClass('cataloge__price__wrapper_add');
+		$('.cataloge__price').addClass('cataloge__price_add');
+		$('.cataloge__index').addClass('cataloge__index_add');
+		$('.c__ind__line').addClass('c__ind__line_add');
+		$('.cataloge__title').addClass('cataloge__title_add');
+		$('.cataloge__index__wrapper').addClass('cataloge__index__wrapper_add');
+	});
+
+	$('.c__row').on('click', function(){
+		$('.cataloge__items').removeClass('fl_column');
+		$('.cataloge__item').removeClass('cataloge__item_add');
+		$('.cataloge__image').removeClass('cataloge__image_add');
+		$('.cataloge__price__wrapper').removeClass('cataloge__price__wrapper_add');
+		$('.cataloge__price').removeClass('cataloge__price_add');
+		$('.cataloge__index').removeClass('cataloge__index_add');
+		$('.c__ind__line').removeClass('c__ind__line_add');	
+		$('.cataloge__title').removeClass('cataloge__title_add');	
+		$('.cataloge__index__wrapper').removeClass('cataloge__index__wrapper_add');		
+	});
+
+	$('.product__plus').on('click', function(){
+			let full_kol_vo = $('.product__number');
+			let kol_vo = parseInt( $('.product__number').text() );
+
+			kol_vo = kol_vo + 1;
+			full_kol_vo.text( kol_vo );
+	});
+
+	$('.product__minus').on('click', function(){
+			let full_kol_vo = $('.product__number');
+			let kol_vo = parseInt( $('.product__number').text() );
+
+			if( kol_vo > 1 ){
+
+				kol_vo = kol_vo - 1;
+				full_kol_vo.text( kol_vo );
+
+			}
+	});
+
+});
+</script>
+
+<!--Yandex Map-->
+<script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+<script type="text/javascript">
+  var myMap;
+  ymaps.ready(init); // Ожидание загрузки API с сервера Яндекса
+  function init () {
+    myMap = new ymaps.Map("map", {
+      center: [55.80303008722429, 49.25823718756109], // Координаты центра карты
+      zoom: 16 // Zoom
+    });
+  }
+</script>
+
+<script>
+
+</script>
+
+
+</body>
+</html>
